@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fast, modern software that ships</title>
-  <meta name="description" content="A software agency focused on fast results and modern approaches. We deliver stable, lightweight solutions for real problems." />
+  <title>Lightweight Labs — fast, modern software</title>
+  <meta name="description" content="Fast results, modern approaches. We deliver real, stable, lightweight solutions for real problems." />
   <meta name="color-scheme" content="dark" />
   <link rel="icon" href="data:," />
   <link rel="stylesheet" href="./style.css" />
@@ -14,62 +14,154 @@
 
   <header class="top">
     <div class="wrap top__inner">
-      <a class="brand" href="#top" aria-label="Home">Lightweight Labs</a>
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">Lightweight Labs</span>
+      </a>
+
       <nav class="nav" aria-label="Primary">
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#foundations">Foundations</a>
+        <a href="#contact" class="btn btn--ghost">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="main" class="wrap" tabindex="-1">
+  <main id="main">
     <section class="hero" id="top">
-      <p class="kicker">Software agency</p>
-      <h1 class="hero__title" aria-label="We ship stable, lightweight products for real problems.">
-        <span class="reveal" aria-hidden="true">We ship stable, lightweight products for real problems.</span>
-      </h1>
-      <p class="lead">Fast results and modern approaches — without bloat.</p>
+      <div class="wrap hero__inner">
+        <p class="eyebrow">Software agency for fast results</p>
 
-      <div class="cta">
-        <a class="link" href="#contact">Talk to us</a>
-        <span class="sep" aria-hidden="true">/</span>
-        <a class="link" href="#services">What we do</a>
+        <h1 class="h1">
+          <span class="reveal">Plan. Build. Ship.</span>
+          <span class="h1__sub">Stable, lightweight solutions for real problems.</span>
+        </h1>
+
+        <p class="lead">
+          Modern approaches, minimal bloat. We ship production-quality v1s fast — then iterate with evidence.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#contact">Start a project</a>
+          <a class="btn btn--ghost" href="#capabilities">See what we deliver</a>
+        </div>
+
+        <p class="muted tiny">Trusted by teams who value speed, craft, and reliability.</p>
+        <div class="logos" aria-label="Example customer logos">
+          <span>Product</span><span>Fintech</span><span>Health</span><span>DevTools</span><span>Commerce</span>
+        </div>
+
+        <div class="hero__frame" role="img" aria-label="Product preview (placeholder)">
+          <div class="frame__grid" aria-hidden="true"></div>
+          <div class="frame__content">
+            <div class="pill">v1 shipped</div>
+            <div class="rows">
+              <div class="row"><span class="dot"></span><span>Scope locked</span><span class="meta">Day 1</span></div>
+              <div class="row"><span class="dot"></span><span>Build + deploy</span><span class="meta">Day 3</span></div>
+              <div class="row"><span class="dot"></span><span>Polish & harden</span><span class="meta">Day 7</span></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="services" class="section">
-      <h2>Services</h2>
-      <ul>
-        <li><strong>Rapid build</strong> — scope → ship a production-quality v1</li>
-        <li><strong>Product rescue</strong> — remove bloat, stabilize releases, fix UX friction</li>
-        <li><strong>Design + UX iteration</strong> — flows, copy, tokens, implementation support</li>
-      </ul>
+    <section class="section" id="capabilities">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Made for modern teams</h2>
+          <p class="muted">Relentless focus, fast execution, quality craft.</p>
+        </header>
+
+        <div class="feature">
+          <div>
+            <h3>Rapid build</h3>
+            <p class="muted">Scope → ship a production-quality v1. Performance, accessibility, and monitoring included.</p>
+          </div>
+          <div class="mini">
+            <div class="mini__k">Deliverables</div>
+            <ul>
+              <li>Clear scope + milestones</li>
+              <li>Production deployment</li>
+              <li>Two iteration cycles</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div>
+            <h3>Product rescue</h3>
+            <p class="muted">Remove bloat, stabilize releases, fix the parts users feel. Fewer regressions, faster velocity.</p>
+          </div>
+          <div class="mini">
+            <div class="mini__k">Typical wins</div>
+            <ul>
+              <li>Faster load times</li>
+              <li>Simpler architecture</li>
+              <li>Cleaner UI states</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div>
+            <h3>Design + UX iteration</h3>
+            <p class="muted">Flows, copy, tokens, component specs — and hands-on implementation support.</p>
+          </div>
+          <div class="mini">
+            <div class="mini__k">Focus</div>
+            <ul>
+              <li>Reduce cognitive load</li>
+              <li>Raise conversion</li>
+              <li>Make it feel premium</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="process" class="section">
-      <h2>Process</h2>
-      <ol>
-        <li><strong>Clarify</strong> — one short call: goals, constraints, success metrics</li>
-        <li><strong>Ship</strong> — smallest real product that works in production</li>
-        <li><strong>Iterate</strong> — polish, edge cases, performance, accessibility</li>
-      </ol>
+    <section class="section" id="foundations">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Built on strong foundations</h2>
+          <p class="muted">Simple to use. Hard to break. Fast by default.</p>
+        </header>
+
+        <div class="foundations">
+          <div class="stat">
+            <div class="stat__k">Performance</div>
+            <div class="stat__v">Lightweight pages, minimal dependencies.</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Reliability</div>
+            <div class="stat__v">Production-minded from day one, with guardrails.</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Security</div>
+            <div class="stat__v">Pragmatic best practices, sane defaults.</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>
-        Email: <a class="link" href="mailto:hello@example.com?subject=Project%20inquiry%20%E2%80%94%20Lightweight%20Labs">hello@example.com</a>
-        <span class="muted">(replace with your real email)</span>
-      </p>
-      <p class="muted">Include a link, a deadline, and what “done” means.</p>
-    </section>
+    <section class="section" id="contact">
+      <div class="wrap">
+        <header class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">Send a short brief. We’ll reply with a plan.</p>
+        </header>
 
-    <footer class="foot">
-      <span>© <span id="y"></span> Lightweight Labs</span>
-      <span class="sep" aria-hidden="true">/</span>
-      <a class="link" href="https://github.com/manulus1-ai" target="_blank" rel="noreferrer">GitHub</a>
-    </footer>
+        <div class="contact">
+          <a class="mail" href="mailto:hello@example.com?subject=Project%20inquiry%20%E2%80%94%20Lightweight%20Labs">hello@example.com</a>
+          <p class="muted tiny">Replace with your real email.</p>
+        </div>
+
+        <footer class="foot">
+          <span>© <span id="y"></span> Lightweight Labs</span>
+          <span class="sep" aria-hidden="true">·</span>
+          <a href="https://github.com/manulus1-ai" target="_blank" rel="noreferrer">GitHub</a>
+        </footer>
+      </div>
+    </section>
   </main>
 
   <script>
