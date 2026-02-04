@@ -29,20 +29,6 @@ a:hover{text-decoration:underline; text-underline-offset: 4px}
 .skip{position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden}
 .skip:focus{left:16px; top:16px; width:auto; height:auto; padding:10px 12px; border:1px solid var(--border2); border-radius: 12px; background: rgba(0,0,0,.5)}
 
-.top{
-  position: sticky; top:0; z-index: 20;
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  background: rgba(7,10,18,.55);
-  backdrop-filter: blur(10px);
-}
-.top__inner{display:flex; align-items:center; justify-content:space-between; gap: 14px; padding: 18px 0}
-
-.brand{display:flex; align-items:center; gap: 10px}
-.brand__name{font-weight: 900; letter-spacing: -.01em}
-.brand__mark{width: 12px; height: 12px; border-radius: 5px; background: linear-gradient(135deg, rgba(124,212,255,.9), rgba(155,140,255,.75)); box-shadow: 0 0 0 1px rgba(255,255,255,.18)}
-
-.nav{display:flex; align-items:center; gap: 14px}
-
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   padding: 10px 12px;
