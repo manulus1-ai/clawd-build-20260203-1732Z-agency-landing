@@ -7,7 +7,7 @@
   --accent: #7cd4ff;
   --accent2:#9b8cff;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  --sans: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
 }
 *{box-sizing:border-box}
 html,body{min-height:100%}
@@ -15,10 +15,7 @@ body{
   margin:0;
   font-family: var(--sans);
   color: var(--fg);
-  background:
-    radial-gradient(900px 520px at 20% -10%, rgba(124,212,255,.16), transparent 60%),
-    radial-gradient(900px 520px at 80% 0%, rgba(155,140,255,.14), transparent 60%),
-    #070a12;
+  background: var(--bg);
 }
 
 .wrap{max-width: 1060px; margin: 0 auto; padding: 0 22px}
@@ -47,16 +44,13 @@ a:hover{text-decoration:underline; text-underline-offset: 4px}
 .hero__inner{display:flex; flex-direction:column; gap: 18px}
 .eyebrow{margin:0; color: var(--muted); font-family: var(--mono); letter-spacing: .14em; text-transform: uppercase; font-size: 12px}
 
-.h1{margin:0; font-size: clamp(48px, 6.6vw, 84px); line-height: 1.0; letter-spacing: -0.06em}
-.h1__sub{display:block; margin-top: 14px; font-size: clamp(16px, 1.7vw, 20px); color: rgba(238,242,255,.76); letter-spacing: -0.01em; font-weight: 500; max-width: 55ch}
+.h1{margin:0; font-size: clamp(46px, 6.2vw, 82px); line-height: 1.02; letter-spacing: -0.055em}
+.h1__sub{display:block; margin-top: 14px; font-size: clamp(16px, 1.65vw, 20px); color: rgba(238,242,255,.78); letter-spacing: -0.01em; font-weight: 500; max-width: 58ch}
 
 /* Linear-ish hero text animation: subtle blur+rise */
 .reveal{
   display:inline-block;
-  background: linear-gradient(180deg, rgba(238,242,255,1), rgba(238,242,255,.78));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--fg);
   filter: blur(7px);
   transform: translateY(12px);
   opacity: 0;
